@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.magescove.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"CoveClientMixin",
+		"DisableVanillaTitle",
+		"TitleScreenMixin",
+		"MinecraftClientMixin",
+		"IconsMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

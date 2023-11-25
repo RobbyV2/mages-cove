@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.magescove.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"CoveMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

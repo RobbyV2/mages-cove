@@ -1,0 +1,47 @@
+{
+	"schemaVersion": 1,
+	"id": "magescove",
+	"version": "${version}",
+	"name": "Mage's Cove Mod",
+	"description": "Custom mod for the mage's cove server.",
+	"authors": [
+		"RobbyV2"
+	],
+	"contact": {
+		"homepage": "https://robby.blue/"
+	},
+	"license": "MIT",
+	"icon": "assets/magescove/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.magescove.CoveMod"
+		],
+		"client": [
+			"com.magescove.CoveModClient"
+		]
+	},
+	"mixins": [
+		"magescove.mixins.json",
+		{
+			"config": "magescove.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": ">=1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/44qNrRFQ7b"
+			}
+		}
+	}
+}
