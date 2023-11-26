@@ -17,7 +17,7 @@
 
 ## Key Features
 
-#### Server (already added to the server)
+#### Server
 
 - Sends tips about mages cove every 4 minutes
 
