@@ -30,4 +30,4 @@
 - Custom splash text
 - Discord invite button
 - Automatically add mages cove server to server list
-- Mage's Cove on bottom right
+- Mage's Cove discord button
