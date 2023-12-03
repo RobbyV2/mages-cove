@@ -22,7 +22,10 @@ public class CoveMixin {
 			Text.of("The world spawn is at exactly 0, 0!"),
 			Text.of("You can enter a bee dimension by throwing an enderpearl into a beehive!"),
 			Text.of("Would you rather have unlimited bacon but no more video games or games, unlimited games, but no more games?"),
-			Text.of("You can claim land using the claim tool from /kits!")
+			Text.of("You can claim land using the claim tool from /kits!"),
+			Text.of("DM easy_ on discord if you have questions or concerns about the server, but make sure to check #guides and #faq first!"),
+			Text.of("You can do /rtp to go to a random location within the worldborder!"),
+			Text.of("The worldborder is 12500 blocks in each direction, so there's plenty of room for everyone!"),
 	};
 
 	@Inject(at = @At("RETURN"), method = "tick")
